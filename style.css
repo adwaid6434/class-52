@@ -1,0 +1,47 @@
+body{
+background-color: pink;
+}
+h1{
+color:cyan;
+}
+.statement{
+background-color: black; 
+color:crimson;
+}
+.container{
+display :flex;
+flex-direction: row;
+justify-content:space-evenly;
+flex-wrap:wrap;
+
+}
+.item{
+border:solid;
+border-radius:20px;
+padding:20px;
+margin-right:250px;
+margin-bottom:50px;
+}
+.item p{
+color:red;
+}
+.introduction a{
+color:blue;
+}
+.preview{
+background-color: black;
+}
+.item:hover{
+opacity:0.2;
+}
+.items.preview{
+visibility: hidden;
+
+} 
+.items:hover .items.preview{
+position:relative;
+top:100px;
+right:50px; 
+
+visibility:visible;
+}
